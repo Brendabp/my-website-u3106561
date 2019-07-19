@@ -1,0 +1,290 @@
+*
+/* PAGE ELEMENTS */
+
+/* Set Footer Styling */
+footer
+{
+    text-align: left; 
+    text-decoration: none;
+    font-size: 10px;
+    font-family: sans-serif;    
+}
+
+/* Define paragraph font style, size and decoration (none) */
+p
+{
+    text-decoration: none;
+    font-size: 12px;
+    font-family: sans-serif;    
+}
+
+/* Define Un Ordered List Style for font */
+ul
+{
+    font-size: 12px;
+    font-family: sans-serif;        
+}
+
+
+/*Remove White Space between images and elements */
+img 
+{
+    margin:0;
+    padding:0;
+    float:left
+}
+
+/* Add a black background color to the top navigation */
+body
+{
+  background-color: #ffffff;
+}
+
+/* Change Background Colour Navigation Pane*/
+/* No Overflow shown*/
+nav
+{
+  background-color: #a6a6a6;
+  overflow: hidden;
+}
+
+/* Remove bullet points of list */
+nav ul
+{
+    list-style: non;
+}
+
+/* Change layout of Navigation Pane */
+nav ul li 
+{
+    display: inline;
+    float: right;
+    color: #ffffff;
+    text-align: center;
+    padding: 20px 30px;
+    text-decoration: none;
+    font-size: 17px;
+    font-family: sans-serif; 
+    
+}
+
+/* Style the navigation links and font */
+nav ul li a
+{
+    color: #ffffff;
+    padding: 20px 30px;
+    text-decoration: none;
+    font-size: 17px;
+    font-family: sans-serif; 
+}
+
+/* Change the color of links on hover on class: "nav" */
+nav ul li a:hover
+{
+    background-color: #ddd;
+    color: black;
+}
+
+/* Change the colour to the active link */
+nav ul li a:active
+{
+    background-color: white;
+    color: black;
+}
+
+
+/*HEADINGS*/
+/* Style Haeding 1 Font and Text Size */
+h1
+{ 
+    text-align: left; 
+    text-decoration: none;
+    font-size: 60px;
+    font-family: sans-serif;
+    color: #545454;
+}
+
+/* Style Haeding 2 Font and Text Size */
+h2
+{
+    text-align: left; 
+    text-decoration: none;
+    font-size: 20px;
+    font-family: sans-serif;
+    color: #545454;
+}
+/* Style Haeding 3 Font and Text Size */
+h3
+{
+    text-align: left; 
+    padding: -30px -30px; /* Padding added */
+    text-decoration:none;
+    font-size: 25px;
+    font-family: sans-serif;
+    color: black;
+    margin: 0;
+
+}
+
+/* Style Haeding 4 Font and Text Size */
+h4 
+{
+    border-style: solid;
+    border-radius: 5px;
+    border-color: lightgray;
+    overflow:hidden;
+    padding: 4px;
+    float:left;
+    text-decoration: none;
+    font-size: 14px;
+    font-family: sans-serif;
+}
+
+/* CLASSES */
+/* Class to resize and position logo */
+.img img {
+    position:relative;
+    top: -50px;
+    right:0px;
+    width: 100px;
+    height: auto;
+}
+
+/* Class for setting the active link in the navigation bar so that style can appear different to make the current page obvious */
+.active_nav
+{
+    background-color: #545454;
+    color: white;
+}
+
+/* Class for images in Header for positioning and size*/
+.headimg {
+    max-width: 1000px;
+    position: relative;
+    margin:0; 
+}
+
+/* Class to set 3 even columns*/
+.column {
+    flex: 33.33%;
+    padding: 0px;
+    filter: grayscale(100%);
+    background-color: #a6a6a6;
+}
+
+/* display images in row evenly */
+.row 
+{
+  display:flex;
+}
+
+/* Class to contain page text in linked information pages*/
+.break
+{
+    background-color: ghostwhite;
+    margin-top: 50px;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-bottom: 50px;
+    padding: 0;
+}
+
+/* Class to style the Background of iframe linked pages*/
+.iframebackground
+{
+    background-color: ghostwhite;
+    margin: 0;
+}
+
+/* Class to create a styles Heading Shape*/
+.shaped_heading_blue
+{
+    width:100%;
+    background-color: #7e9494;
+    padding: 10px;
+    margin: 0px;
+    opacity: 0.6;
+    position: sticky; 
+    top: 0;
+    z-index: 99999;
+    position: fixed;
+}
+
+/* Class to create a styles Heading Shape*/
+.shaped_heading_gold
+{
+    width:100%;
+    background-color: #c2bdae;
+    padding: 10px;
+    margin: 0px;
+    opacity: 0.6;
+    position: sticky; 
+    top: 0;
+    z-index: 99999;
+    position: fixed;
+}
+/* Class to create a styles Heading Shape*/
+.shaped_heading_pink
+{
+    width:100%;
+    background-color: #d4cace;
+    padding: 10px;
+    margin: 0px;
+    opacity: 0.6;
+    position: sticky; 
+    top: 0;
+    z-index: 99999;
+    position: fixed;
+}
+
+/* Class to create a style Robin Boyd's Portrait image*/
+.robinportrait
+{
+    width:50%;
+    overflow:auto; 
+}
+
+/* Class to create column area for elements (used accross multiple pages) */
+.columns {
+    flex: 33.33%;
+    padding: 8px;
+}
+
+/* Class to create row area for elements (used accross multiple pages) */
+.rows
+{
+    display:flex;
+    margin-top: 5%;
+}
+
+/* Class to manipulate the size of selec iframes */
+.iframe_size iframe
+{
+    height: 500px;
+    width: 100%;
+    border: none;
+}
+/* Place Grayscale filter on images */
+.filteredimage
+{
+    filter: grayscale(100%);
+    min-height: 300px
+}
+
+/* resize Images in this Class */
+.image_size img
+{
+    height: 300px;
+    width: 500px;
+    object-fit: cover;
+    
+}
+
+/* resize Images in this Class */
+.head_img img
+{
+    width: 100%;
+    object-fit:fill;
+    padding: 0px;
+    display: inline;
+}
